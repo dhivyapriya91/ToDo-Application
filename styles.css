@@ -1,0 +1,167 @@
+/* Center the app and set a clean font */
+/* .app {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+/* List styling */
+/* ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} */
+
+/* Individual todo item layout */
+/* li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  padding: 6px 8px;
+  background: #fff;
+  border-radius: 4px;
+} */
+
+/* Search input and todo text input fill available space */
+/* input[type="text"] {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+
+/* Style checkboxes a bit */
+/* input[type="checkbox"] {
+  transform: scale(1.2);
+} */
+
+/* Button styling */
+/* button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+} */
+
+/* Button hover effect */
+/* button:hover {
+  opacity: 0.9;
+} */
+
+/* Specific buttons */
+/* button[type="submit"] {
+  background: #4caf50;
+  color: #fff;
+}
+
+button:not([type="submit"]) {
+  background: #e0e0e0;
+  color: #333;
+} */
+
+/* Completed todo text */
+/* li input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #888;
+} */
+
+/* Spacing around header */
+/* h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #333;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-form input {
+  padding: 10px;
+  width: 75%;
+  margin-right: 10px;
+}
+
+.todo-form button {
+  padding: 10px 20px;
+}
+
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
+  width: 50%;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item .actions button {
+  margin-left: 5px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filter-buttons button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.filter-buttons button:hover {
+  background-color: #ccc;
+}
+
+.filter-buttons .active {
+  background-color: #007bff;
+  color: white;
+}
